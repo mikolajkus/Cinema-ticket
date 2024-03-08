@@ -2,6 +2,7 @@
     width: 787px;
     height: 273px;
     background-color: #EFC684;
+    border-radius: 10px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -24,4 +25,34 @@
 
 .information-box-right-side {
     width: 50%;
+}
+
+.header {
+    font-size: 55px;
+    margin: 26px 0 0 29px;
+    text-transform: uppercase;
+}
+
+.price-vip-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.price-vip-box .text {
+    width: 82px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.price-vip-box .vip-box {
+    margin: 36px 0 39px 36px;
+}
+
+.price-vip-box .price-box {
+    margin: 36px 0 39px 35px;
 }
