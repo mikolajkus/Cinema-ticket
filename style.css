@@ -16,6 +16,7 @@
     flex-direction: row;
     border-right: 2px dashed #DB0808;
 }
+
 .popcorn-coupon {
      width: 27%;
 }
@@ -110,11 +111,6 @@
 
 .popcorn-coupon .coupon-images .bucket {
     width: 100%;
-}
-
-.popcorn-coupon .corns {
-    display: flex;
-    justify-content: center;
 }
 
 .popcorn-coupon .coupon-images .corns  {
