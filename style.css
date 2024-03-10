@@ -25,16 +25,18 @@
 
 .information-box-right-side {
     width: 50%;
+    margin:15px 75px 0 40px;
+
 }
 
 .header {
     font-size: 55px;
-    margin: 26px 0 0 29px;
+    margin: 26px 0 0 33px;
     text-transform: uppercase;
 }
 
 .price-vip-box {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
 }
@@ -55,4 +57,29 @@
 
 .price-vip-box .price-box {
     margin: 30px 0 0 35px;
+}
+.text {
+    font-size: 20px;
+    margin: 15px 0 15px 0;
+}
+
+.gate-seat-box {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin: 25px 0 25px 0;
+}
+
+.gate-seat-box .text {
+    margin: 0
+}
+
+.information-box-right-side > .text {
+    border-bottom: 1px solid black;
+}
+
+.barcode-image {
+    margin-top: 20px;
 }
