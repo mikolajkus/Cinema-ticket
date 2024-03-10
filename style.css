@@ -27,7 +27,6 @@
 .information-box-right-side {
     width: 50%;
     margin:15px 65px 0 50px;
-
 }
 
 .header {
@@ -53,12 +52,13 @@
 }
 
 .price-vip-box .vip-box {
-    margin: 30px 0 0 36px;
+    margin: 30px 0 0 40px;
 }
 
 .price-vip-box .price-box {
-    margin: 30px 0 0 35px;
+    margin: 30px 0 0 50px;
 }
+
 .text {
     font-size: 20px;
     margin: 15px 0 15px 0;
@@ -88,24 +88,23 @@
 .popcorn-coupon  {
     display: flex;
     flex-direction: column;
-    margin-left: 35px;
+    margin:0 0 0 35px;
 }
 
 .title-coupon {
     width: 70%;
     font-size: 10px;
     color: grey ;
-    margin: 20px 0 0 0px;
+    margin: 20px 0 0 0;
 }
 
 .popcorn-coupon .coupon-images {
     display: flex;
     flex-direction: column;
-
 }
 
 .popcorn-coupon .coupon-images .corn {
-    width: 10%;
+    width: 8%;
     margin-left: 50px;
 }
 
@@ -114,8 +113,16 @@
     margin-top: 20px;
 }
 
-.bucket:hover {
-
+.popcorn-coupon .corns .corn {
+    display: block;
+    margin: 0;
+    position: relative;
+    left: 60px;
+    bottom: 190px;
 }
+
+
+
+
 
 
