@@ -120,9 +120,18 @@
     top: 30px;
 }
 
-.popcorn-coupon .coupon-images:hover .seed {
+.popcorn-coupon .coupon-images:hover .seed1 {
     transform: translate(0px, -35px) rotate(360deg);
-    transition: all 1s ease-out .2s ;
+    transition: all 700ms ease-out .2s ;
 }
 
+.popcorn-coupon .coupon-images:hover .seed2 {
+    transform: translate(0px, -35px) rotate(360deg);
+    transition: all 1500ms ease-out .2s ;
+}
+
+.popcorn-coupon .coupon-images:hover .seed3 {
+    transform: translate(0px, -35px) rotate(360deg);
+    transition: all 2300ms ease-out .2s ;
+}
 
