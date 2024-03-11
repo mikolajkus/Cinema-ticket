@@ -99,11 +99,11 @@
     margin-top: 30px;
 }
 
-.popcorn-coupon .coupon-images .corn {
+.corn {
     width: 10%;
 }
 
-.popcorn-coupon .coupon-images .bucket {
+.bucket {
     width: 100%;
 }
 
@@ -114,22 +114,34 @@
     top: 30px;
 }
 
-.popcorn-coupon .coupon-images:hover .seed1 {
-    transform: translate(0px, -45px) rotate(360deg);
+.popcorn-coupon .coupon-images .seed1 {
     transition: all 700ms ease-out .2s ;
 }
 
+.popcorn-coupon .coupon-images:hover .seed1 {
+    transform: translate(0px, -40px) rotate(360deg);
+}
+
+.popcorn-coupon .coupon-images .seed2 {
+    transition: all 1500ms ease-in-out .2s ;
+}
+
 .popcorn-coupon .coupon-images:hover .seed2 {
-    transform: translate(0px, -45px) rotate(360deg);
-    transition: all 1300ms ease-out .2s ;
+    transform: translate(0px, -50px) rotate(360deg);
+}
+
+.popcorn-coupon .coupon-images .seed3 {
+    transition: all 2300ms ease-in-out .2s ;
 }
 
 .popcorn-coupon .coupon-images:hover .seed3 {
-    transform: translate(0px, -45px) rotate(360deg);
-    transition: all 1900ms ease-out .2s ;
+    transform: translate(0px, -30px) rotate(360deg);
+}
+
+.popcorn-coupon .coupon-images .bucket {
+    transition: all 100ms ease-out .2s;
 }
 
 .popcorn-coupon .coupon-images:hover .bucket {
-    transform: translate(0px, -8px) rotate(-4deg);
-    transition: all 100ms ease-out .2s;
+    transform: translate(0px, -5px) rotate(-4deg);
 }
