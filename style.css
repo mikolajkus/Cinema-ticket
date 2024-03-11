@@ -1,1 +1,147 @@
+.cinema-ticket {
+    width: 787px;
+    height: 273px;
+    background-color: #EFC684;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+}
 
+.information-box {
+    width: 73%;
+    display: flex;
+    flex-direction: row;
+    border-right: 2px dashed #DB0808;
+}
+
+.popcorn-coupon {
+     width: 27%;
+}
+
+.information-box-left-side {
+    width: 50%;
+}
+
+.information-box-right-side {
+    width: 50%;
+    margin:15px 65px 0 50px;
+}
+
+.header {
+    font-size: 55px;
+    margin: 26px 0 0 33px;
+    text-transform: uppercase;
+}
+
+.price-vip-box {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.price-vip-box .text {
+    width: 82px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.price-vip-box .vip-box {
+    margin: 30px 0 0 40px;
+}
+
+.price-vip-box .price-box {
+    margin: 30px 0 0 50px;
+}
+
+.text {
+    font-size: 20px;
+    margin: 15px 0 15px 0;
+}
+
+.gate-seat-box {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin: 25px 0 25px 0;
+}
+
+.gate-seat-box .text {
+    margin: 0
+}
+
+.information-box-right-side > .text {
+    border-bottom: 1px solid black;
+}
+
+.barcode-image {
+    margin-top: 20px;
+}
+
+.popcorn-coupon  {
+    display: flex;
+    flex-direction: column;
+    margin:0 0 0 35px;
+}
+
+.popcorn-coupon .coupon-images {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.corn {
+    width: 10%;
+}
+
+.bucket {
+    width: 100%;
+}
+
+.popcorn-coupon .coupon-images .corns  {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.popcorn-coupon .coupon-images .seed1 {
+    transition: all 700ms ease-out .2s ;
+}
+
+.popcorn-coupon .coupon-images:hover .seed1 {
+    transform: translate(0px, -40px) rotate(360deg);
+}
+
+.popcorn-coupon .coupon-images .seed2 {
+    transition: all 1500ms ease-in-out .2s ;
+}
+
+.popcorn-coupon .coupon-images:hover .seed2 {
+    transform: translate(0px, -50px) rotate(360deg);
+}
+
+.popcorn-coupon .coupon-images .seed3 {
+    transition: all 2300ms ease-in-out .2s ;
+}
+
+.popcorn-coupon .coupon-images:hover .seed3 {
+    transform: translate(0px, -30px) rotate(360deg);
+}
+
+.popcorn-coupon .coupon-images .bucket {
+    transition: all 100ms ease-out .2s;
+}
+
+.popcorn-coupon .coupon-images:hover .bucket {
+    transform: translate(0px, -5px) rotate(-4deg);
+}
